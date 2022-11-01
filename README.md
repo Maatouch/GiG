@@ -4,7 +4,7 @@
 pip and python installed
 
 ## Initial setup
-```pip install flask, flask-sqlalchemy, pytest, flask-migrate```
+```pip install flask flask-sqlalchemy pytest flask-migrate```
 
 Database migration : 
 
