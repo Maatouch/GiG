@@ -50,11 +50,13 @@ def update_author(id):
 
 #Books endpoints
 @app.route("/books", methods=["GET"])
-@app.route("/books/author/<author_id>", methods=["GET"])
-def get_books(author_id=0):
-    books = Books.query.all()
-    if author_id != 0:
+def get_books():
+    #optional query param (/books?author=x)
+    author_id = request.args.get('author')
+    if author_id:
         books = db.session.query(Books).filter(Books.author_id == author_id).all()
+    else :
+        books = Books.query.all()
     return jsonify([book.to_json() for book in books])
 
 @app.route("/books/<id>", methods=["GET"])
