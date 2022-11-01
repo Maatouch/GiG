@@ -1,7 +1,7 @@
 # Flask REST API exercise
 
 ## Requirements
-pip and python3 installed
+pip and python installed
 
 ## Initial setup
 ```pip install flask, flask-sqlalchemy, pytest, flask-migrate```
@@ -16,4 +16,4 @@ Database migration :
 ```pytest```
 
 ## Run application 
-```python3 run.py```
+```python run.py```
