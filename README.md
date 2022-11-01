@@ -7,7 +7,9 @@ pip and python3 installed
 ```pip install flask, flask-sqlalchemy, pytest, flask-migrate```
 
 Database migration : 
+
 ```flask db migrate -m "Initial migration."```
+
 ```flask db upgrade```
 
 ## Run tests 
