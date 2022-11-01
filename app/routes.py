@@ -6,7 +6,7 @@ from sqlalchemy.sql import text
 
 @app.route("/")
 def index():
-    return 'Hello, World!'
+    return 'Hello, GiG!'
 
 #Authors endpoints
 @app.route("/authors", methods=["GET"])
