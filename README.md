@@ -17,3 +17,6 @@ Database migration :
 
 ## Run application 
 ```python run.py```
+
+
+The app should be available in : http://127.0.0.1:5000/
