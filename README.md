@@ -1,1 +1,4 @@
-# GiG
+# Flask REST API exercise
+
+## Requirements
+
